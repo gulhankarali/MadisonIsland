@@ -13,6 +13,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 
 public class SearchStepDefs {
+
     SearchResultsPage searchResultsPage = new SearchResultsPage();
     ProductDetailPage productDetailPage = new ProductDetailPage();
     CartPage cartPage= new CartPage();

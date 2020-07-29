@@ -8,5 +8,6 @@ Feature: Testing search functionality
     Given user should choose "<Color>" and "<Size>" and add it to cart
     Then user should validate "<ProductName>" has been added to cart
    Examples:
-    | KeyName    | ProductName                 | Color   | Size |
-    | shirt      |Slim fit Dobby Oxford Shirt  | Blue    | XS   |
+    | KeyName    | ProductName                 | Color    | Size |
+    | shirt      |Slim fit Dobby Oxford Shirt  | Blue     | XS   |
+    | shirt      |Plaid Cotton Shirt           | Charcoal | S    |
